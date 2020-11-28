@@ -11,14 +11,14 @@ for ele in range(test):
             su += arr[ele1]
         if su == sum1:
             if inl:
-                print("true")
+                # print("truea")
                 start += 1
                 end = ele1 + 1
             if not(inl):
                 end = end
             break
         if su > sum1:
-            for ele2 in range(le):
+            for ele2 in range(start,le):
                 if su == sum1:
                     start = ele2 + 1
                     end = ele1 + 1
