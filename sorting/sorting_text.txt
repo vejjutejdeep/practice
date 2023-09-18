@@ -1,1 +1,9 @@
 hi this testing the test and push and commit.
+
+sorting can be many types
+some of them are
+selection sort
+sort the element by travesing the list.
+bubble sort
+swap the elements till the end of the list (like the hevy water bubble and ligter water bubble.)
+quick sort
