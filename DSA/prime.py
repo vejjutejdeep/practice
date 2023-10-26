@@ -28,11 +28,14 @@ def change_string(sentence):
     while(words > -1):
         # print(words)
         if "." in lis[words]:
-            lis[words][:-2]
-        str += lis[words] + " "
+            # print(lis[words][:-1])
+            lis[words] = lis[words][:-1]
+        str += lis[words].swapcase() + " "
 
         words -= 1
     # print(str)
+    str = str[:-1]
+    str += "."
 
     return str
 
