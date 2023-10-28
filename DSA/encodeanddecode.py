@@ -1,6 +1,8 @@
 def decode(string_decode):
 
-    decoded_string = []
+    decoded_string = string_decode.split(":;")
+
+    print(decoded_string)
 
     return decoded_string
 
