@@ -34,17 +34,17 @@ def validParantresis(args):
     
     # print(static)
 
-# Input = "()"
-# print(validParantresis(Input))
+Input = "()"
+print(validParantresis(Input))
 
-# Input = "(){}[]"
-# print(validParantresis(Input))
+Input = "(){}[]"
+print(validParantresis(Input))
 
-# Input = "(]"
-# print(validParantresis(Input))
+Input = "(]"
+print(validParantresis(Input))
 
-# Input = "{[]}"
-# print(validParantresis(Input))
+Input = "{[]}"
+print(validParantresis(Input))
 
 Input = "[([]])"
 print(validParantresis(Input))
