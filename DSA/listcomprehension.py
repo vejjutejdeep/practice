@@ -23,3 +23,22 @@ def newstring(st, pos):
 st ="hello world"
 pos = 6
 newstring(st,pos)
+
+list1 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
+list2 = [ 0,   1,   1,    0,   1,   2,   2,   0,   1]
+
+dic = {}
+
+for iter1 in range(len(list2)):
+    
+    dic [list1[iter1]] = list2[iter1]
+
+sorted_lis = sorted(dic.items(), key = lambda x:x[1])
+
+
+newlist = []
+for i in sorted_lis:
+    
+    newlist.append(i[0])
+
+print(newlist)
