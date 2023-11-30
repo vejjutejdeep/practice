@@ -1,14 +1,8 @@
 def fibonacciTriangleGenerator(lines):
 
-    ope1 = 1
+    numberElement = 0
 
-    ope2 = 1
-
-    print(ope1)
-
-    numberElement = 1
-
-    for iter1 in range(lines - 1):
+    for iter1 in range(lines):
 
         ope1 = 1
 
