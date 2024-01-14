@@ -15,9 +15,6 @@ def is_palindrome(num):
     while temp > 0:
 
         reverse += (temp % 10) * (10 ** i)
-        # print(num % 10)
-        # print(10**i)
-        # print(reverse)
 
         temp = temp // 10
 
