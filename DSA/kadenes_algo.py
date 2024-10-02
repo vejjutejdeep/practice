@@ -18,3 +18,5 @@ print(find_sum_arr(arr))
 arr = [-2,-1] 
 n = len(arr)
 print(find_sum_arr(arr))
+arr = [-2,1,-3,4,-1,2,1,-5,4] 
+print(find_sum_arr(arr))

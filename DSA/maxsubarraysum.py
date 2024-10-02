@@ -16,3 +16,6 @@ print(maxSubarraySum(arr,n))
 arr = [-2,-1] 
 n = len(arr)
 print(maxSubarraySum(arr,n))
+arr = [-2,-3,4,-1,-2,1,5,-3] 
+n = len(arr)
+print(maxSubarraySum(arr,n))
