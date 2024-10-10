@@ -13,9 +13,17 @@ def double(func):
 
     return inner
 
+def cube(func):
+
+    def inner(a):
+        return func(a * a * a)
+    return inner
+
 @square
 @double
+@cube
 def number(a):
+    # float a = 0
     a = round(math.sqrt(a))
     return a
 

@@ -2,6 +2,7 @@ import pandas as pd
 even = [i for i in range(100) if i % 2 == 0]
 odd = [i for i in range(100) if i %2 != 0]
 arr = [1,3,5,7,9,2,1,5]
+even1 = [i if i % 2 == 0 else 0 for i in range(100)]
 map = {}
 # remove = [i for i in arr for j in range(0,i - 1) if i == j: pop(i)]
 # df = pd.DataFrame(arr, columns=['data'])
@@ -19,5 +20,6 @@ map = {}
 b = []
 [b.append(item) for item in arr if item not in b]
 print(b)
+print(even1)
 # print(df) 
 # print(even, odd)
